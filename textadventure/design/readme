@@ -1,0 +1,15 @@
+Here There Be Dragons… Oh, and Over There Too!
+
+Consulted help from:
+    Tomer Borenstein (CA)
+    John Wayne Williams (MAPW student - whoisjohnwayne@gmail.com)
+
+Structure Idea from:
+http://www.daniweb.com/software-development/python/threads/55140
+
+Running This Game:
+This game is run in the python shell. Open TextAdventure.py and (in IDLE) run module.
+
+Description:
+Here There Be Dragons… Oh, and Over There Too! is a text adventure game with a twist at the end. It follows the adventure of either a rogue or a paladin. You will learn their backstory through their adventure, and help them fulfill their dream. Complete the quest. Slay the dragon!
+

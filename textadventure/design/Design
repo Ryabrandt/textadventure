@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+Here There Be Dragons… Oh, and Over There Too!
+
+Consulted help from:
+    Tomer Borenstein (CA)
+    John Wayne Williams (MAPW student - whoisjohnwayne@gmail.com)
+
+Structure Idea from:
+http://www.daniweb.com/software-development/python/threads/55140
+
+The structure of the rooms:
+[Pre Room]  [4c]
+[1a][2a][3a][4a][5a][6a]
+[1b][2b][3b][4b][5b]
+                [5d][6d]
+                    [end]
+
+Entrances, Exits, Hallways...
+"go" direction
+1a - south, east
+1b - north
+2a - west, south
+2b - north, east
+3a - south, east
+3b - west, north, east
+4a - north, south, east, west
+4b - north, east, west
+4c - south
+5a - south, east, west
+5b - north, south, west
+5d - north, east
+6a - west
+6d - (comes from west, cannot turn around)
+
+
+I created a text adventure. The hardest part of this was figuring out
+the best way to move from room to room and have actions that were input by
+the user. The story had to be detailed and well written, but still functional and
+playable.
+
+I have three modules for the different rooms. Each room is a function. There is
+a module for game options, like the die rolls, and then a module for character
+information and creation. This module also contains the functions for creating
+enemies.
+
+I tried to create a UI and display the text to it, but I never got it to
+work the way I wanted it to. I included the UI in the package because I
+designed it myself and, in the future, hope to integrate that into the game.
+
